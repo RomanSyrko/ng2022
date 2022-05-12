@@ -19,10 +19,10 @@ export class UserService {
       .get<any[]>(this.url);
   }
 
-  getUser(id:number): Observable<IUser[]> {
-    return this
-      .httpClient
-      .get<any[]>(this.url + '/' + id);
-  }
+  // getUser(id:number): Observable<IUser[]> {
+  //   return this
+  //     .httpClient
+  //     .get<any[]>(this.url + '/' + id);
+  // }
 
 }
